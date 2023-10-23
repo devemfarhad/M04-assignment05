@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content-body{
+    margin-top: 100px;
+}
+
+.btn-primary{
+    background-color: #a06800 !important;
+    border-color: #040205 !important;
+}
+
+.btn-primary:hover{
+    background-color: #a06800 !important;
+    border-color: #040205 !important;
+}
+
+.card-header, .card-footer{
+    background-color: #a06800;
+    color: #ffffff;
+}
+
+input, select{
+    box-shadow: none !important;
+}
+
+input:focus{
+    border-color: #a06800 !important;
+}
+
+label{
+    position: relative;
+    top: 14px;
+    background: #ffffff;
+    color: #a06800;
+    margin: 0 12px;
+    padding: 0 0px;
+    font-size: 15px;
+}
+
+::after{
+    display: none !important;
+}
+
+form a{
+    color: #a06800 !important;
+}
